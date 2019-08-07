@@ -27,7 +27,7 @@ class Song
  end
  
  def self.find_by_name(title)
-   
+   binding.pry 
  end
    
   def self.all
