@@ -27,7 +27,9 @@ class Song
  end
  
  def self.find_by_name(title)
-   binding.pry 
+  # binding.pry
+ self.all.find {|song| song.name == title }
+ 
  end
    
   def self.all
